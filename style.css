@@ -1,0 +1,224 @@
+
+
+/*toutes les div news.html*/
+
+div#content{
+	/* background-color: black; */
+	padding: 50px;
+}
+div#content div{
+	display: inline-block;
+	width: 49%
+
+}
+div#content div h1, p{
+	margin: 30px;
+}
+div#content div.leftbox{
+	background-color: white;
+	border-radius: 10px;
+
+}
+div#content div.rightbox{
+	background-color: grey;
+	border-radius: 10px;
+	
+}
+
+/*tout ce qui est navigation*/
+
+nav.menu-nav ul li.btn{
+	display: inline-block;
+	list-style-type: none;
+	margin: 5%;
+	font-size: 65px;
+	padding: 2px;
+}
+nav.menu-nav ul li.btn a{
+	color: #000;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 42px;
+	background-color: #fff	
+}
+nav.menu-nav ul li.btn:hover a{
+	color: #fff;
+	background-color: #000;
+	transition: 1s all;
+	animation-direction: reverse;
+	clip-path: none;
+	border-radius: 30px;
+
+}
+nav.menu-nav ul li.btn:not(hover) a{
+	color: #000;
+	background-color: #fff;
+	transition: 1s all;
+}
+
+
+/* le bouton accueil de bravo.html */
+
+
+nav.nav ul li.btnn {
+	text-align: center;
+	list-style-type: none;
+	margin: 5%;
+	font-size: 65px;
+	padding: 2px;
+
+}
+nav.nav ul li.btnn a{
+	color: #000;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 42px;
+	background-color: #fff
+
+} 
+nav.nav ul li.btnn:hover a{
+	color: #fff;
+	background-color: #000;
+	transition: 1s all;
+	animation-direction: reverse;
+	clip-path: none;
+	border-radius: 30px;
+}
+nav.nav ul li.btnn:not(hover) a{
+	color: #000;
+	background-color: #fff;
+	transition: 1s all;
+	border-radius: 40px;
+
+}
+
+/*autre (pas menu de navigation)*/
+
+/*tete de page*/
+
+header{
+	background-color: #26D7BF;
+	margin: auto;
+ 	width: 65%;
+ 	border: 2px;
+  	padding: 20px;
+	border-radius: 20px;
+}
+header h1{
+	margin: 34px;
+}
+/*PAGE*/
+
+h1.LUMI{
+		color: #1E2ACE;
+		text-align: center;
+		text-decoration: underline;
+}
+body{
+	margin: 0;
+	background: radial-gradient(#ED1330, #E31C80, #26D7BF, #3113C7, white, #000);
+	background-repeat: no-repeat;
+}
+
+div.phrase, div.logo{
+	text-align: center;
+}
+
+p.brovo{
+	text-align: center;
+}
+
+p.text{
+	grid-area: 5/5
+}
+
+
+span.middle{
+	text-align: center;
+}
+
+h1.textemulticolore {
+	text-align: center;
+	background-image: linear-gradient(to top, #99ED2A, darkblue, violet, indigo, blue, black, red, green, yellow, orange, darkviolet, red, #44E61B);  
+	-webkit-background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text; 
+	background-clip: text;
+	color: transparent;
+	}
+
+	/* background: conic-gradient(at 0% 30%, red 10%, yellow 30%, #1e90ff 50%); */
+	
+
+
+/*pied de page*/
+
+footer p.pied{
+	background-color: black;
+	color: white;
+	padding: 5px;
+}
+footer{
+	border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    height: 8%;
+}
+
+
+/* tout le contact et reservez */
+
+
+div.bravo{
+	text-align: center;
+	align-items: center;
+}
+
+button a.find{
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*on sait jamais*/
+
+/*#carte
+{
+	
+		width: 800px;
+		margin:0 auto;
+		background-color: white;
+		text-align: center;
+		align-content: center;
+}*/
+
